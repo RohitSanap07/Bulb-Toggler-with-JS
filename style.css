@@ -1,0 +1,14 @@
+.app-title{
+    text-align: center;
+}
+
+.bulb-img{
+    height: 140px;
+    display: block;
+    margin: 10px auto;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
