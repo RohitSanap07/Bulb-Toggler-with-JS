@@ -12,3 +12,9 @@
     display: flex;
     justify-content: center;
 }
+
+.btn-toggle{
+    margin: 12px 28px;
+    width: 110px;
+    cursor: pointer;
+}

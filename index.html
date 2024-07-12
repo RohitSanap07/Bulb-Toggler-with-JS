@@ -9,12 +9,31 @@
 <body>
     <h1 class="app-title">Bulb Toggler</h1>
 
-    <img src="./Images/light-bulb (2).png" class="bulb-img"/>
+    <img src="./bulb-off.png" class="bulb-img" id="img-bulb"/>
 
     <div class="btn-container">
-        <button type="button" class="btn-container">Turn ON</button>
-        <button type="button" class="btn-container">Turn OFF</button>
+        <button type="button" class="btn-toggle" onclick="toggleBulb()">Toggle</button>
     </div>
+
+    <script>
+    function toggleBulb() {
+        const bulbElement = document.getElementById("img-bulb")
+      
+        if(bulbElement.src.includes("bulb-off.png")){
+            bulbElement.src="./bulb-on.png"
+
+        }
+        else{
+            bulbElement.src="./bulb-off.png"
+        }
+
+
+         
+        
+    }
+
+
+    </script>
     
 </body>
 </html>
