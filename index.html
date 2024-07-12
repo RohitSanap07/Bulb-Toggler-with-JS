@@ -7,12 +7,13 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1 class="app-title">Bulb Toggler</h1>
+    <p class="app-title">Bulb Toggler💡</p>
+    <P class="heading">Be the Light that Helps others See...</P>
 
     <img src="./bulb-off.png" class="bulb-img" id="img-bulb"/>
 
     <div class="btn-container">
-        <button type="button" class="btn-toggle" onclick="toggleBulb()">Toggle</button>
+        <button type="button" class="btn-toggle" onclick="toggleBulb()">Switch <img src="./toggle.png" height="20px" width="25px"></button>
     </div>
 
     <script>
@@ -26,14 +27,8 @@
         else{
             bulbElement.src="./bulb-off.png"
         }
+ }
 
-
-         
-        
-    }
-
-
-    </script>
-    
+ </script>
 </body>
 </html>

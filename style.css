@@ -1,5 +1,15 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(247, 206, 176);
+}
+
+
 .app-title{
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: rgb(241, 17, 166);
 }
 
 .bulb-img{
@@ -11,10 +21,29 @@
 .btn-container{
     display: flex;
     justify-content: center;
+    
 }
 
 .btn-toggle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 12px 28px;
     width: 110px;
     cursor: pointer;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(59, 239, 233);
+    border-radius: 3px;
 }
+
+.btn-toggle:hover{
+    background-color: rgb(74, 254, 71);
+    border-radius: 3px;
+}
+
+.heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
